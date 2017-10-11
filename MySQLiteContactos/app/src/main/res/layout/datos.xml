@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+
+        <EditText
+            android:id="@+id/txtid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/id"
+            android:inputType="textPersonName"
+            android:text="@string/id"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtnombre"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/nombre"
+            android:inputType="textPersonName"
+            android:text="@string/nombrE"
+            android:textSize="24sp"
+            tools:text="NOMBRE:" />
+
+
+        <EditText
+            android:id="@+id/txtemail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:text="@string/email"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txttwiter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/twiter"
+            android:inputType="textPersonName"
+            android:text="@string/twiter"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txttel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/telefono"
+            android:inputType="number"
+            android:text="@string/telefono"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtfecha"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/fecha_de_nacimiento_dd_mm_aa"
+            android:inputType="date"
+            android:text="@string/fecha_de_nacimiento"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnguardar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_dark"
+            android:text="@string/agregar"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnactualizar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:background="@android:color/background_dark"
+            android:text="@string/actualizar"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            tools:ignore="PxUsage" />
+
+        <Button
+            android:id="@+id/btneliminar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:background="@android:color/background_dark"
+            android:text="Eliminar"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText,PxUsage" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

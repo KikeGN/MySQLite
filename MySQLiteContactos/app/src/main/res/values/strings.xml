@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MySQLiteContactos</string>
+    <string name="email">EMAIL:</string>
+    <string name="fecha_de_nacimiento">FECHA DE NACIMIENTO:</string>
+    <string name="id">ID:</string>
+    <string name="telefono">TELEFONO:</string>
+    <string name="twiter">TWITER:</string>
+    <string name="actualizar">ACTUALIZAR</string>
+    <string name="agregar">AGREGAR</string>
+    <string name="fecha_de_nacimiento_dd_mm_aa">fechaNac</string>
+    <string name="nombre">nombre</string>
+    <string name="buscar">Buscar</string>
+    <string name="actualizarMain">ACTUALIZAR</string>
+    <string name="nuevo">NUEVO</string>
+    <string name="nombrE">NOMBRE:</string>
+
+</resources>
